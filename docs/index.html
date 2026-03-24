@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Cafeteras | NEXUS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: rgba(255,255,255,0.04);
+            --bg-card-hover: rgba(255,255,255,0.07);
+            --border: rgba(255,255,255,0.08);
+            --accent-gold: #c8a84b;
+            --accent-gold-light: #f0d080;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #475569;
+            --cimbali: #c8a84b;
+            --melitta: #3b82f6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            min-height: 100vh;
+            background-image: 
+                radial-gradient(ellipse at 20% 50%, rgba(200,168,75,0.04) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(59,130,246,0.04) 0%, transparent 50%);
+        }
+
+        /* HEADER */
+        header {
+            padding: 24px 32px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(10,10,15,0.8);
+            backdrop-filter: blur(12px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .header-icon {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, var(--accent-gold), #8b6914);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .header-title { font-size: 18px; font-weight: 600; letter-spacing: -0.3px; }
+        .header-sub { font-size: 11px; color: var(--text-muted); font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; }
+        .header-meta { font-size: 12px; color: var(--text-muted); }
+        .header-meta span { color: var(--accent-gold); }
+
+        /* MAIN LAYOUT */
+        main { padding: 32px; max-width: 1600px; margin: 0 auto; }
+
+        /* STAT CARDS */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 32px;
+        }
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px 24px;
+            transition: all 0.2s ease;
+        }
+        .stat-card:hover { background: var(--bg-card-hover); transform: translateY(-1px); }
+        .stat-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+        .stat-value { font-size: 32px; font-weight: 700; line-height: 1; }
+        .stat-sub { font-size: 12px; color: var(--text-secondary); margin-top: 6px; }
+        .stat-card.gold .stat-value { color: var(--accent-gold); }
+        .stat-card.green .stat-value { color: var(--accent-green); }
+        .stat-card.blue .stat-value { color: var(--accent-blue); }
+        .stat-card.red .stat-value { color: var(--accent-red); }
+
+        /* SECTION HEADER */
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+        .section-title { font-size: 14px; font-weight: 600; color: var(--text-primary); }
+        .badge {
+            font-size: 11px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        .badge-gold { background: rgba(200,168,75,0.15); color: var(--accent-gold); }
+        .badge-blue { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+        .badge-neutral { background: rgba(255,255,255,0.06); color: var(--text-secondary); }
+
+        /* FILTER BAR */
+        .filter-bar {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .search-input {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 9px 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 13px;
+            color: var(--text-primary);
+            outline: none;
+            min-width: 260px;
+            transition: border-color 0.2s;
+        }
+        .search-input::placeholder { color: var(--text-muted); }
+        .search-input:focus { border-color: var(--accent-gold); }
+        .filter-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 9px 16px;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        .filter-btn:hover, .filter-btn.active { 
+            background: rgba(200,168,75,0.1); 
+            border-color: var(--accent-gold); 
+            color: var(--accent-gold); 
+        }
+
+        /* TABLE */
+        .table-wrapper {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        table { width: 100%; border-collapse: collapse; }
+        thead th {
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 11px;
+            font-weight: 500;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            background: rgba(255,255,255,0.02);
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            user-select: none;
+            white-space: nowrap;
+        }
+        thead th:hover { color: var(--text-secondary); }
+        thead th.sorted { color: var(--accent-gold); }
+        tbody tr {
+            border-bottom: 1px solid rgba(255,255,255,0.04);
+            transition: background 0.15s;
+        }
+        tbody tr:last-child { border-bottom: none; }
+        tbody tr:hover { background: rgba(255,255,255,0.03); }
+        tbody td {
+            padding: 12px 16px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            vertical-align: middle;
+        }
+        .td-local { color: var(--text-primary); font-weight: 500; }
+        .td-sigla { 
+            font-family: monospace; 
+            font-size: 11px; 
+            color: var(--text-muted);
+            background: rgba(255,255,255,0.05);
+            padding: 3px 7px;
+            border-radius: 5px;
+        }
+        .marca-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        .marca-cimbali { background: rgba(200,168,75,0.12); color: var(--cimbali); }
+        .marca-melitta { background: rgba(59,130,246,0.12); color: var(--melitta); }
+        .marca-empty { background: rgba(255,255,255,0.05); color: var(--text-muted); }
+        .serie-code {
+            font-family: monospace;
+            font-size: 12px;
+            color: var(--text-primary);
+            letter-spacing: 0.5px;
+        }
+        .serie-empty { color: var(--text-muted); font-style: italic; font-size: 11px; }
+        .shots-num { 
+            color: var(--accent-gold); 
+            font-weight: 600;
+            font-size: 13px;
+        }
+        .shots-empty { color: var(--text-muted); }
+        .estado-pill {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .estado-operativo { background: rgba(16,185,129,0.12); color: var(--accent-green); }
+        .estado-mantenimiento { background: rgba(245,158,11,0.12); color: #f59e0b; }
+        .estado-fuera { background: rgba(239,68,68,0.12); color: var(--accent-red); }
+        .estado-empty { background: rgba(255,255,255,0.05); color: var(--text-muted); font-size: 11px; }
+
+        /* SEPARATOR between equipo 1 y equipo 2 */
+        .eq-separator { 
+            border-left: 1px solid var(--border); 
+            padding-left: 16px !important;
+        }
+        .eq-header { 
+            color: var(--text-muted); 
+            font-size: 10px; 
+            display: block;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        /* PAGINATION */
+        .pagination-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 14px 20px;
+            border-top: 1px solid var(--border);
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        .pag-buttons { display: flex; gap: 6px; }
+        .pag-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 14px;
+            font-family: 'Inter', sans-serif;
+            font-size: 12px;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .pag-btn:hover { border-color: var(--accent-gold); color: var(--accent-gold); }
+        .pag-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+        .pag-btn.active { background: rgba(200,168,75,0.12); border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 24px 32px;
+            font-size: 11px;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border);
+            margin-top: 24px;
+        }
+        .nexus-logo { color: var(--accent-gold); font-weight: 600; }
+
+        /* LOADING */
+        #loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: var(--text-muted);
+            font-size: 14px;
+            gap: 12px;
+        }
+        .spinner {
+            width: 20px;
+            height: 20px;
+            border: 2px solid rgba(255,255,255,0.1);
+            border-top-color: var(--accent-gold);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-brand">
+        <div class="header-icon">☕</div>
+        <div>
+            <div class="header-title">Dashboard Cafeteras</div>
+            <div class="header-sub">NEXUS · Sistema de Gestión de Equipos</div>
+        </div>
+    </div>
+    <div class="header-meta">
+        Actualizado: <span id="fecha-actual">—</span>
+    </div>
+</header>
+
+<main>
+    <!-- STATS -->
+    <div class="stats-grid" id="stats-grid">
+        <div class="stat-card gold">
+            <div class="stat-label">Total Locales</div>
+            <div class="stat-value" id="stat-total">—</div>
+            <div class="stat-sub">registros en base</div>
+        </div>
+        <div class="stat-card green">
+            <div class="stat-label">Con Serie Confirmada</div>
+            <div class="stat-value" id="stat-con-serie">—</div>
+            <div class="stat-sub">equipos identificados</div>
+        </div>
+        <div class="stat-card red">
+            <div class="stat-label">Sin Serie</div>
+            <div class="stat-value" id="stat-sin-serie">—</div>
+            <div class="stat-sub">requieren relevamiento</div>
+        </div>
+        <div class="stat-card gold">
+            <div class="stat-label">La Cimbali</div>
+            <div class="stat-value" id="stat-cimbali">—</div>
+            <div class="stat-sub">equipos</div>
+        </div>
+        <div class="stat-card blue">
+            <div class="stat-label">Melitta</div>
+            <div class="stat-value" id="stat-melitta">—</div>
+            <div class="stat-sub">equipos</div>
+        </div>
+    </div>
+
+    <!-- TABLE SECTION -->
+    <div class="section-header">
+        <span class="section-title">Inventario de Equipos</span>
+        <span class="badge badge-gold" id="badge-showing">—</span>
+    </div>
+
+    <div class="filter-bar">
+        <input type="text" class="search-input" id="search" placeholder="🔍  Buscar por local, sigla o número de serie…">
+        <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">Todos</button>
+        <button class="filter-btn" data-filter="con-serie" onclick="setFilter('con-serie', this)">Con Serie</button>
+        <button class="filter-btn" data-filter="sin-serie" onclick="setFilter('sin-serie', this)">Sin Serie</button>
+        <button class="filter-btn" data-filter="cimbali" onclick="setFilter('cimbali', this)">La Cimbali</button>
+        <button class="filter-btn" data-filter="melitta" onclick="setFilter('melitta', this)">Melitta</button>
+        <button class="filter-btn" data-filter="dos-equipos" onclick="setFilter('dos-equipos', this)">2 Equipos</button>
+    </div>
+
+    <div class="table-wrapper">
+        <div id="loading"><div class="spinner"></div> Cargando datos…</div>
+        <table id="data-table" style="display:none;">
+            <thead>
+                <tr>
+                    <th onclick="sortBy('Local')">LOCAL</th>
+                    <th onclick="sortBy('Sigla')">SIGLA</th>
+                    <th>EQUIPO 1 — MARCA</th>
+                    <th onclick="sortBy('Serie 1')">SERIE 1</th>
+                    <th>SHOTS 1</th>
+                    <th>ESTADO 1</th>
+                    <th class="eq-separator">EQUIPO 2 — MARCA</th>
+                    <th>SERIE 2</th>
+                    <th>SHOTS 2</th>
+                    <th>ESTADO 2</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+        <div class="pagination-bar" id="pag-bar" style="display:none;">
+            <span id="pag-info">—</span>
+            <div class="pag-buttons" id="pag-buttons"></div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <span class="nexus-logo">NEXUS</span> · Antigravity Dashboard © 2026 · Datos en tiempo real desde <code>base_datos_cafeteras.xlsx</code>
+</footer>
+
+<script>
+    const PAGE_SIZE = 30;
+    let allData = [];
+    let filteredData = [];
+    let currentPage = 1;
+    let currentFilter = 'all';
+    let sortKey = 'Local';
+    let sortAsc = true;
+
+    // ── FORMAT HELPERS ──────────────────────────────────────────────
+    function marcaPill(val) {
+        if (!val || val === '') return '';
+        if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">☕ ${val}</span>`;
+        if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">◆ ${val}</span>`;
+        return `<span class="marca-pill marca-empty">${val}</span>`;
+    }
+    function serieTd(val) {
+        if (!val || val === '' || val === 'No especificado') return '<span class="serie-empty">Sin serie</span>';
+        if (val === 'S/N') return '<span class="serie-empty">S/N</span>';
+        return `<span class="serie-code">${val}</span>`;
+    }
+    function shotsTd(val) {
+        if (val === '' || val === null || val === undefined) return '<span class="shots-empty">—</span>';
+        return `<span class="shots-num">${val}</span>`;
+    }
+    function estadoPill(val) {
+        if (!val || val === '') return '<span class="estado-pill estado-empty">—</span>';
+        const v = val.toLowerCase();
+        if (v.includes('operativ')) return `<span class="estado-pill estado-operativo">● ${val}</span>`;
+        if (v.includes('manten')) return `<span class="estado-pill estado-mantenimiento">● ${val}</span>`;
+        if (v.includes('fuera') || v.includes('baja')) return `<span class="estado-pill estado-fuera">● ${val}</span>`;
+        return `<span class="estado-pill estado-empty">${val}</span>`;
+    }
+
+    // ── FILTER & SORT ────────────────────────────────────────────────
+    function setFilter(f, btn) {
+        currentFilter = f;
+        currentPage = 1;
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        applyFilter();
+    }
+    function applyFilter() {
+        const q = document.getElementById('search').value.toLowerCase();
+        filteredData = allData.filter(r => {
+            const matchSearch = !q || 
+                (r['Local'] || '').toLowerCase().includes(q) ||
+                (r['Sigla'] || '').toLowerCase().includes(q) ||
+                String(r['Serie 1'] || '').toLowerCase().includes(q) ||
+                String(r['Serie 2'] || '').toLowerCase().includes(q);
+            if (!matchSearch) return false;
+            if (currentFilter === 'con-serie') return r['Serie 1'] && r['Serie 1'] !== '' && r['Serie 1'] !== 'No especificado' && r['Serie 1'] !== 'S/N';
+            if (currentFilter === 'sin-serie') return !r['Serie 1'] || r['Serie 1'] === '' || r['Serie 1'] === 'No especificado' || r['Serie 1'] === 'S/N';
+            if (currentFilter === 'cimbali') return (r['Marca 1'] || '').toLowerCase().includes('cimbali');
+            if (currentFilter === 'melitta') return (r['Marca 1'] || '').toLowerCase().includes('melitta');
+            if (currentFilter === 'dos-equipos') return r['Marca 2'] && r['Marca 2'] !== '';
+            return true;
+        });
+        sortData();
+        renderTable();
+        renderPagination();
+    }
+    function sortBy(key) {
+        if (sortKey === key) sortAsc = !sortAsc;
+        else { sortKey = key; sortAsc = true; }
+        sortData();
+        renderTable();
+    }
+    function sortData() {
+        filteredData.sort((a, b) => {
+            const av = String(a[sortKey] || '').toLowerCase();
+            const bv = String(b[sortKey] || '').toLowerCase();
+            return sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+        });
+    }
+
+    // ── RENDER ────────────────────────────────────────────────────────
+    function renderTable() {
+        const start = (currentPage - 1) * PAGE_SIZE;
+        const page = filteredData.slice(start, start + PAGE_SIZE);
+        const body = document.getElementById('table-body');
+        body.innerHTML = page.map(r => `
+            <tr>
+                <td class="td-local">${r['Local'] || '—'}</td>
+                <td><span class="td-sigla">${r['Sigla'] || '—'}</span></td>
+                <td>${marcaPill(r['Marca 1'])}</td>
+                <td>${serieTd(r['Serie 1'])}</td>
+                <td>${shotsTd(r['Shots'])}</td>
+                <td>${estadoPill(r['Estado'])}</td>
+                <td class="eq-separator">${marcaPill(r['Marca 2'])}</td>
+                <td>${serieTd(r['Serie 2'])}</td>
+                <td>${shotsTd(r['Shots 2'])}</td>
+                <td>${estadoPill(r['Estado 2'])}</td>
+            </tr>
+        `).join('');
+        document.getElementById('badge-showing').textContent = `${filteredData.length} locales`;
+        document.getElementById('data-table').style.display = '';
+        document.getElementById('loading').style.display = 'none';
+    }
+    function renderPagination() {
+        const totalPages = Math.ceil(filteredData.length / PAGE_SIZE);
+        const info = document.getElementById('pag-info');
+        const buttons = document.getElementById('pag-buttons');
+        const pagBar = document.getElementById('pag-bar');
+        const start = (currentPage - 1) * PAGE_SIZE + 1;
+        const end = Math.min(currentPage * PAGE_SIZE, filteredData.length);
+        info.textContent = `Mostrando ${start}–${end} de ${filteredData.length} registros`;
+        buttons.innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+            const btn = document.createElement('button');
+            btn.className = 'pag-btn' + (i === currentPage ? ' active' : '');
+            btn.textContent = i;
+            btn.onclick = () => { currentPage = i; renderTable(); renderPagination(); };
+            buttons.appendChild(btn);
+        }
+        pagBar.style.display = '';
+    }
+
+    // ── LOAD DATA ────────────────────────────────────────────────────
+    fetch('data.json')
+        .then(r => r.json())
+        .then(json => {
+            // Soporte para JSON con wrapper meta + locales
+            allData = json.locales || json;
+            const meta = json.meta || {};
+
+            // Stats
+            document.getElementById('stat-total').textContent = meta.total_locales || allData.length;
+            document.getElementById('stat-con-serie').textContent = meta.con_serie_confirmada || '—';
+            document.getElementById('stat-sin-serie').textContent = meta.sin_serie || '—';
+            document.getElementById('stat-cimbali').textContent = (meta.marcas || {})['La Cimbali'] || '—';
+            document.getElementById('stat-melitta').textContent = (meta.marcas || {})['Melitta'] || '—';
+
+            // Fecha
+            document.getElementById('fecha-actual').textContent = new Date().toLocaleDateString('es-AR', {day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
+
+            filteredData = [...allData];
+            sortData();
+            renderTable();
+            renderPagination();
+        })
+        .catch(err => {
+            document.getElementById('loading').innerHTML = `<span style="color:var(--accent-red)">❌ Error cargando datos: ${err.message}. Asegúrate de abrir desde un servidor local.</span>`;
+        });
+
+    // Search
+    document.getElementById('search').addEventListener('input', () => {
+        currentPage = 1;
+        applyFilter();
+    });
+</script>
+</body>
+</html>
