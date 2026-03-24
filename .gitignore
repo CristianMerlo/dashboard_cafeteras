@@ -1,0 +1,17 @@
+# Sistema
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Temporales de Excel
+~$*
+*.tmp
+
+# Base de datos fuente (no versionar el Excel)
+base/
+
+# Archivos de entorno
+.venv/
+env/
