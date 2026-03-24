@@ -52,15 +52,17 @@
             gap: 14px;
         }
         .header-icon {
-            width: 38px;
-            height: 38px;
-            background: linear-gradient(135deg, var(--accent-gold), #8b6914);
+            width: 44px;
+            height: 44px;
             border-radius: 10px;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
+            background: #fff;
+            flex-shrink: 0;
         }
+        .header-icon img { width: 38px; height: auto; display: block; }
         .header-title { font-size: 18px; font-weight: 600; letter-spacing: -0.3px; }
         .header-sub { font-size: 11px; color: var(--text-muted); font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; }
         .header-meta { font-size: 12px; color: var(--text-muted); }
@@ -303,13 +305,97 @@
             animation: spin 0.8s linear infinite;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── RESPONSIVE MOBILE ────────────────────────────────────────── */
+
+        /* Tabla con scroll horizontal en pantallas chicas */
+        .table-wrapper { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+        table { min-width: 600px; }
+
+        /* Botón expand para equipo 2 en mobile */
+        .btn-expand {
+            background: none;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 14px;
+            width: 26px;
+            height: 26px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+        .btn-expand:hover, .btn-expand.open { border-color: var(--accent-gold); color: var(--accent-gold); }
+
+        /* Fila de detalle equipo 2 (mobile) */
+        tr.detail-row td {
+            background: rgba(200,168,75,0.03);
+            border-top: none;
+        }
+        .detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px 16px;
+            padding: 6px 0;
+        }
+        .detail-item { font-size: 12px; }
+        .detail-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+
+        @media (max-width: 768px) {
+            /* Header compacto */
+            header { padding: 14px 16px; }
+            .header-sub { display: none; }
+            .header-meta { font-size: 11px; }
+
+            /* Main padding */
+            main { padding: 16px; }
+
+            /* Stats 2 columnas */
+            .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px; }
+            .stat-card { padding: 14px 16px; border-radius: 12px; }
+            .stat-value { font-size: 24px; }
+            .stat-sub { display: none; }
+
+            /* Filtros: scroll horizontal */
+            .filter-bar { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+            .filter-bar::-webkit-scrollbar { display: none; }
+            .search-input { min-width: 200px; }
+
+            /* Tabla: ocultar columnas de equipo 2 */
+            .col-eq2 { display: none; }
+            thead th.col-eq2 { display: none; }
+
+            /* Columna expand visible solo en mobile */
+            .col-expand { display: table-cell !important; }
+
+            /* Tabla más compacta */
+            tbody td, thead th { padding: 10px 10px; }
+
+            /* Footer compacto */
+            footer { padding: 16px; font-size: 10px; }
+            footer code { display: none; }
+
+            /* Pagination */
+            .pagination-bar { flex-direction: column; gap: 10px; align-items: flex-start; }
+        }
+
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: repeat(2, 1fr); }
+            .stat-value { font-size: 20px; }
+        }
+
+        /* Desktop: ocultar columna expand */
+        .col-expand { display: none; }
     </style>
 </head>
 <body>
 
 <header>
     <div class="header-brand">
-        <div class="header-icon">☕</div>
+        <div class="header-icon"><img src="/img/logo.png" alt="Logo Mostaza"></div>
         <div>
             <div class="header-title">Dashboard Cafeteras</div>
             <div class="header-sub">NEXUS · Sistema de Gestión de Equipos</div>
@@ -371,16 +457,17 @@
         <table id="data-table" style="display:none;">
             <thead>
                 <tr>
+                    <th class="col-expand"></th>
                     <th onclick="sortBy('Local')">LOCAL</th>
                     <th onclick="sortBy('Sigla')">SIGLA</th>
                     <th>EQUIPO 1 — MARCA</th>
                     <th onclick="sortBy('Serie 1')">SERIE 1</th>
                     <th>SHOTS 1</th>
                     <th>ESTADO 1</th>
-                    <th class="eq-separator">EQUIPO 2 — MARCA</th>
-                    <th>SERIE 2</th>
-                    <th>SHOTS 2</th>
-                    <th>ESTADO 2</th>
+                    <th class="eq-separator col-eq2">EQUIPO 2 — MARCA</th>
+                    <th class="col-eq2">SERIE 2</th>
+                    <th class="col-eq2">SHOTS 2</th>
+                    <th class="col-eq2">ESTADO 2</th>
                 </tr>
             </thead>
             <tbody id="table-body"></tbody>
@@ -408,8 +495,9 @@
     // ── FORMAT HELPERS ──────────────────────────────────────────────
     function marcaPill(val) {
         if (!val || val === '') return '';
-        if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">☕ ${val}</span>`;
-        if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">◆ ${val}</span>`;
+        const logoImg = '<img src="/img/logo.png" style="height:16px;width:auto;margin-right:5px;vertical-align:middle;">';
+        if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">${logoImg}${val}</span>`;
+        if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">${logoImg}${val}</span>`;
         return `<span class="marca-pill marca-empty">${val}</span>`;
     }
     function serieTd(val) {
@@ -477,19 +565,35 @@
         const start = (currentPage - 1) * PAGE_SIZE;
         const page = filteredData.slice(start, start + PAGE_SIZE);
         const body = document.getElementById('table-body');
-        body.innerHTML = page.map(r => `
-            <tr>
+        const hasEq2 = r => r['Marca 2'] && r['Marca 2'] !== '';
+        body.innerHTML = page.map((r, i) => `
+            <tr data-idx="${i}">
+                <td class="col-expand">
+                    ${hasEq2(r) ? `<button class="btn-expand" onclick="toggleDetail(this, ${i})" title="Ver equipo 2">+</button>` : ''}
+                </td>
                 <td class="td-local">${r['Local'] || '—'}</td>
                 <td><span class="td-sigla">${r['Sigla'] || '—'}</span></td>
                 <td>${marcaPill(r['Marca 1'])}</td>
                 <td>${serieTd(r['Serie 1'])}</td>
                 <td>${shotsTd(r['Shots'])}</td>
                 <td>${estadoPill(r['Estado'])}</td>
-                <td class="eq-separator">${marcaPill(r['Marca 2'])}</td>
-                <td>${serieTd(r['Serie 2'])}</td>
-                <td>${shotsTd(r['Shots 2'])}</td>
-                <td>${estadoPill(r['Estado 2'])}</td>
+                <td class="eq-separator col-eq2">${marcaPill(r['Marca 2'])}</td>
+                <td class="col-eq2">${serieTd(r['Serie 2'])}</td>
+                <td class="col-eq2">${shotsTd(r['Shots 2'])}</td>
+                <td class="col-eq2">${estadoPill(r['Estado 2'])}</td>
             </tr>
+            ${hasEq2(r) ? `
+            <tr class="detail-row" id="detail-${i}" style="display:none;">
+                <td></td>
+                <td colspan="6">
+                    <div class="detail-grid">
+                        <div class="detail-item"><div class="detail-label">Equipo 2 Marca</div>${marcaPill(r['Marca 2'])}</div>
+                        <div class="detail-item"><div class="detail-label">Serie 2</div>${serieTd(r['Serie 2'])}</div>
+                        <div class="detail-item"><div class="detail-label">Shots 2</div>${shotsTd(r['Shots 2'])}</div>
+                        <div class="detail-item"><div class="detail-label">Estado 2</div>${estadoPill(r['Estado 2'])}</div>
+                    </div>
+                </td>
+            </tr>` : ''}
         `).join('');
         document.getElementById('badge-showing').textContent = `${filteredData.length} locales`;
         document.getElementById('data-table').style.display = '';
@@ -546,6 +650,16 @@
         currentPage = 1;
         applyFilter();
     });
+
+    // Expand/Collapse equipo 2 en mobile
+    function toggleDetail(btn, idx) {
+        const detailRow = document.getElementById(`detail-${idx}`);
+        if (!detailRow) return;
+        const isOpen = detailRow.style.display !== 'none';
+        detailRow.style.display = isOpen ? 'none' : '';
+        btn.textContent = isOpen ? '+' : '−';
+        btn.classList.toggle('open', !isOpen);
+    }
 </script>
 </body>
 </html>

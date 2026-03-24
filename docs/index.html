@@ -52,15 +52,17 @@
             gap: 14px;
         }
         .header-icon {
-            width: 38px;
-            height: 38px;
-            background: linear-gradient(135deg, var(--accent-gold), #8b6914);
+            width: 44px;
+            height: 44px;
             border-radius: 10px;
+            overflow: hidden;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 18px;
+            background: #fff;
+            flex-shrink: 0;
         }
+        .header-icon img { width: 38px; height: auto; display: block; }
         .header-title { font-size: 18px; font-weight: 600; letter-spacing: -0.3px; }
         .header-sub { font-size: 11px; color: var(--text-muted); font-weight: 400; letter-spacing: 1.5px; text-transform: uppercase; }
         .header-meta { font-size: 12px; color: var(--text-muted); }
@@ -393,7 +395,7 @@
 
 <header>
     <div class="header-brand">
-        <div class="header-icon">☕</div>
+        <div class="header-icon"><img src="/img/logo.png" alt="Logo Mostaza"></div>
         <div>
             <div class="header-title">Dashboard Cafeteras</div>
             <div class="header-sub">NEXUS · Sistema de Gestión de Equipos</div>
@@ -493,8 +495,9 @@
     // ── FORMAT HELPERS ──────────────────────────────────────────────
     function marcaPill(val) {
         if (!val || val === '') return '';
-        if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">☕ ${val}</span>`;
-        if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">◆ ${val}</span>`;
+        const logoImg = '<img src="/img/logo.png" style="height:16px;width:auto;margin-right:5px;vertical-align:middle;">';
+        if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">${logoImg}${val}</span>`;
+        if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">${logoImg}${val}</span>`;
         return `<span class="marca-pill marca-empty">${val}</span>`;
     }
     function serieTd(val) {
