@@ -1,0 +1,96 @@
+código preciso para tu entorno Antigravity.
+1. El Script de Procesamiento (src/xlsx_to_json.py)
+Crea este archivo en src/xlsx_to_json.py. Este script es el "traductor" inteligente: toma tu Excel, limpia los campos vacíos (NaN) para que no rompan el JSON y exporta los datos para que el Dashboard pueda leerlos.
+code
+Python
+import pandas as pd
+import json
+import os
+import sys
+
+def procesar_datos():
+    input_file = '../base/base_datos_cafeteras.xlsx'
+    output_file = '../web/data.json'
+
+    # Verificar existencia del archivo
+    if not os.path.exists(input_file):
+        print(f"❌ Error: El archivo {input_file} no existe.")
+        sys.exit(1)
+
+    try:
+        # Leer el Excel (lee la primera hoja por defecto)
+        df = pd.read_excel(input_file)
+        
+        # Limpieza profunda: convierte nulos a strings vacíos
+        df = df.fillna('')
+        
+        # Validación de seguridad: Verificar si el archivo está vacío
+        if df.empty:
+            print("⚠️ Advertencia: El archivo Excel parece estar vacío.")
+            sys.exit(1)
+            
+        # Convertir a JSON
+        data = df.to_dict(orient='records')
+        
+        # Guardar archivo JSON
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
+            
+        print(f"✅ Éxito: {len(data)} registros procesados correctamente.")
+        
+    except Exception as e:
+        print(f"❌ Error crítico procesando el archivo: {e}")
+        sys.exit(1)
+
+if __name__ == "__main__":
+    procesar_datos()
+2. El Orquestador de Despliegue (deploy_dashboard.sh)
+Este es el archivo que llamarás desde tu sistema. Guárdalo en la raíz de Dashboard_Cafeteras/.
+code
+Bash
+#!/bin/bash
+
+echo "--- Iniciando Pipeline de Despliegue Antigravity ---"
+
+# 1. Ejecutar conversión
+python3 src/xlsx_to_json.py
+
+# 2. Verificar si hubo errores
+if [ $? -eq 0 ]; then
+    echo "--- Conversión Exitosa. Preparando Git ---"
+    
+    # 3. Git Workflow
+    git add web/data.json
+    
+    # Verificar si hay cambios pendientes
+    if ! git diff-index --quiet HEAD --; then
+        git commit -m "Actualización automática: Dashboard Cafeteras $(date +'%d/%m/%Y %H:%M')"
+        
+        # 4. Autorización humana (simulada por la estructura de tu workflow)
+        read -p "¿Autorizas el despliegue a GitHub Pages? (y/n) " respuesta
+        if [ "$respuesta" == "y" ]; then
+            git push origin main
+            echo "🚀 Dashboard publicado correctamente."
+        else
+            echo "🚫 Despliegue cancelado por el usuario."
+        fi
+    else
+        echo "✅ No hay cambios nuevos en los datos. Dashboard al día."
+    fi
+else
+    echo "❌ Error en el proceso de datos. Despliegue abortado."
+fi
+Instrucciones Finales de Preparación:
+Dependencias: Asegúrate de que tu entorno tiene las librerías necesarias. Ejecuta esto una vez en tu terminal dentro de la carpeta del proyecto:
+code
+Bash
+pip install pandas openpyxl
+Permisos: Dale permisos de ejecución al script de despliegue:
+code
+Bash
+chmod +x deploy_dashboard.sh
+Ejecución: Cada vez que termines de modificar el Excel, simplemente ejecuta:
+code
+Bash
+./deploy_dashboard.sh
+Con esto, ya tienes el motor de procesamiento y el orquestador de despliegue listos

@@ -26,12 +26,9 @@ def procesar_datos():
             print("⚠️ Advertencia: El archivo Excel está vacío. Despliegue abortado.")
             sys.exit(1)
 
-        # 4. Renombrar columnas duplicadas (Shots.1, Estado.1, etc) a nombres legibles
+        # 4. Renombrar columnas duplicadas (Shots.1, Estado.1) a nombres legibles
         df.columns = [
-            col.replace('Shots.1', 'Shots 2')
-               .replace('Estado.1', 'Estado 2')
-               .replace('Servicios.1', 'Servicios 2')
-               .replace('Repuestos.1', 'Repuestos 2')
+            col.replace('Shots.1', 'Shots 2').replace('Estado.1', 'Estado 2')
             for col in df.columns
         ]
 

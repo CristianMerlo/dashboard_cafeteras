@@ -1,0 +1,29 @@
+Cuando agregues una nueva columna en tu archivo base_datos_cafeteras.xlsx, el flujo de actualización es muy simple. Aquí te explico cómo escalarlo:
+1. El Script de Python (xlsx_to_json.py) es agnóstico
+Como tu script actual usa df.to_dict(orient='records'), no necesitas modificar el código de Python cada vez que agregues una columna en el Excel. Pandas leerá automáticamente cualquier columna nueva que añadas, la incluirá en el data.json y el dashboard la recibirá sin que tengas que tocar nada en el backend.
+2. El Frontend (index.html) sí requiere configuración
+Aunque los datos viajen en el JSON, la tabla (DataTables) necesita saber que "esa nueva columna" debe ser mostrada.
+Para agregar una nueva columna (ejemplo: "Fecha Último Mantenimiento"), solo debes hacer dos cambios en index.html:
+A. En el encabezado (<thead>):
+Agrega la etiqueta <th> correspondiente:
+code
+Html
+<thead>
+    <tr>
+        <th>Local</th>
+        <!-- ... tus otras columnas ... -->
+        <th>Fecha Mantenimiento</th> <!-- Nueva columna -->
+    </tr>
+</thead>
+B. En la configuración de columnas de DataTables:
+Agrega la referencia al campo en el array de columns:
+code
+JavaScript
+"columns": [
+    { "data": "Local" },
+    // ... tus otras columnas ...
+    { "data": "Fecha Mantenimiento" } // Debe coincidir con el nombre de la columna en el Excel
+]
+Tips para crecer (Escalabilidad Pro):
+Si quieres que el dashboard sea "inteligente": Si agregas una columna de tipo "Estado" (ej: "OK", "Alerta", "Crítico"), podemos modificar el index.html para que, usando rowCallback de DataTables, las filas se pinten automáticamente de colores (rojo para crítico, verde para OK).
+Columnas condicionales: Si a futuro tienes 50 columnas, no querrás mostrarlas todas. Puedes dejar algunas ocultas en la tabla usando la opción visible: false de DataTables, pero que sigan estando disponibles en el JSON para que el sistema las procese.

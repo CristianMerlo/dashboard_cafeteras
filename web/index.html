@@ -395,7 +395,7 @@
 
 <header>
     <div class="header-brand">
-        <div class="header-icon"><img src="/img/logo.png" alt="Logo Mostaza"></div>
+        <div class="header-icon"><img src="img/logo.png" alt="Logo Mostaza"></div>
         <div>
             <div class="header-title">Dashboard Cafeteras</div>
             <div class="header-sub">NEXUS · Sistema de Gestión de Equipos</div>
@@ -464,10 +464,14 @@
                     <th onclick="sortBy('Serie 1')">SERIE 1</th>
                     <th>SHOTS 1</th>
                     <th>ESTADO 1</th>
+                    <th class="col-eq2">SERVICIOS 1</th>
+                    <th class="col-eq2">REPUESTOS 1</th>
                     <th class="eq-separator col-eq2">EQUIPO 2 — MARCA</th>
                     <th class="col-eq2">SERIE 2</th>
                     <th class="col-eq2">SHOTS 2</th>
                     <th class="col-eq2">ESTADO 2</th>
+                    <th class="col-eq2">SERVICIOS 2</th>
+                    <th class="col-eq2">REPUESTOS 2</th>
                 </tr>
             </thead>
             <tbody id="table-body"></tbody>
@@ -495,7 +499,7 @@
     // ── FORMAT HELPERS ──────────────────────────────────────────────
     function marcaPill(val) {
         if (!val || val === '') return '';
-        const logoImg = '<img src="/img/logo.png" style="height:16px;width:auto;margin-right:5px;vertical-align:middle;">';
+        const logoImg = '<img src="img/logo.png" style="height:16px;width:auto;margin-right:5px;vertical-align:middle;">';
         if (val.toLowerCase().includes('cimbali')) return `<span class="marca-pill marca-cimbali">${logoImg}${val}</span>`;
         if (val.toLowerCase().includes('melitta')) return `<span class="marca-pill marca-melitta">${logoImg}${val}</span>`;
         return `<span class="marca-pill marca-empty">${val}</span>`;
@@ -577,20 +581,28 @@
                 <td>${serieTd(r['Serie 1'])}</td>
                 <td>${shotsTd(r['Shots'])}</td>
                 <td>${estadoPill(r['Estado'])}</td>
+                <td class="col-eq2">${r['Servicios'] || '—'}</td>
+                <td class="col-eq2">${r['Repuestos'] || '—'}</td>
                 <td class="eq-separator col-eq2">${marcaPill(r['Marca 2'])}</td>
                 <td class="col-eq2">${serieTd(r['Serie 2'])}</td>
                 <td class="col-eq2">${shotsTd(r['Shots 2'])}</td>
                 <td class="col-eq2">${estadoPill(r['Estado 2'])}</td>
+                <td class="col-eq2">${r['Servicios 2'] || '—'}</td>
+                <td class="col-eq2">${r['Repuestos 2'] || '—'}</td>
             </tr>
             ${hasEq2(r) ? `
             <tr class="detail-row" id="detail-${i}" style="display:none;">
                 <td></td>
-                <td colspan="6">
+                <td colspan="8">
                     <div class="detail-grid">
+                        <div class="detail-item"><div class="detail-label">Servicios 1</div>${r['Servicios'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Repuestos 1</div>${r['Repuestos'] || '—'}</div>
                         <div class="detail-item"><div class="detail-label">Equipo 2 Marca</div>${marcaPill(r['Marca 2'])}</div>
                         <div class="detail-item"><div class="detail-label">Serie 2</div>${serieTd(r['Serie 2'])}</div>
                         <div class="detail-item"><div class="detail-label">Shots 2</div>${shotsTd(r['Shots 2'])}</div>
                         <div class="detail-item"><div class="detail-label">Estado 2</div>${estadoPill(r['Estado 2'])}</div>
+                        <div class="detail-item"><div class="detail-label">Servicios 2</div>${r['Servicios 2'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Repuestos 2</div>${r['Repuestos 2'] || '—'}</div>
                     </div>
                 </td>
             </tr>` : ''}
