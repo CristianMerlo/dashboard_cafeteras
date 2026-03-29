@@ -435,6 +435,16 @@
             <div class="stat-sub">registros en base</div>
         </div>
         <div class="stat-card green">
+            <div class="stat-label">Equipos Operativos</div>
+            <div class="stat-value" id="stat-operativas">—</div>
+            <div class="stat-sub">en servicio online</div>
+        </div>
+        <div class="stat-card red">
+            <div class="stat-label">Inoperativos</div>
+            <div class="stat-value" id="stat-inoperativas">—</div>
+            <div class="stat-sub">requieren asistencia</div>
+        </div>
+        <div class="stat-card green">
             <div class="stat-label">Con Serie Confirmada</div>
             <div class="stat-value" id="stat-con-serie">—</div>
             <div class="stat-sub">equipos identificados</div>
@@ -465,6 +475,7 @@
     <div class="filter-bar">
         <input type="text" class="search-input" id="search" placeholder="🔍  Buscar por local, sigla o número de serie…">
         <button class="filter-btn active" data-filter="all" onclick="setFilter('all', this)">Todos</button>
+        <button class="filter-btn" data-filter="inoperativos" onclick="setFilter('inoperativos', this)" style="color:var(--accent-red);border-color:rgba(239,68,68,0.3);">Inoperativos</button>
         <button class="filter-btn" data-filter="con-serie" onclick="setFilter('con-serie', this)">Con Serie</button>
         <button class="filter-btn" data-filter="sin-serie" onclick="setFilter('sin-serie', this)">Sin Serie</button>
         <button class="filter-btn" data-filter="cimbali" onclick="setFilter('cimbali', this)">La Cimbali</button>
@@ -544,9 +555,9 @@
     function estadoPill(val) {
         if (!val || val === '') return '<span class="estado-pill estado-empty">—</span>';
         const v = val.toLowerCase();
+        if (v.includes('inoperativ') || v.includes('fuera') || v.includes('baja')) return `<span class="estado-pill estado-fuera">● ${val}</span>`;
         if (v.includes('operativ')) return `<span class="estado-pill estado-operativo">● ${val}</span>`;
         if (v.includes('manten')) return `<span class="estado-pill estado-mantenimiento">● ${val}</span>`;
-        if (v.includes('fuera') || v.includes('baja')) return `<span class="estado-pill estado-fuera">● ${val}</span>`;
         return `<span class="estado-pill estado-empty">${val}</span>`;
     }
 
@@ -581,6 +592,12 @@
             if (currentFilter === 'cimbali') return (r['Marca 1'] || '').toLowerCase().includes('cimbali');
             if (currentFilter === 'melitta') return (r['Marca 1'] || '').toLowerCase().includes('melitta');
             if (currentFilter === 'dos-equipos') return r['Marca 2'] && r['Marca 2'] !== '';
+            if (currentFilter === 'inoperativos') {
+                const s1 = (r['Estado'] || '').toLowerCase();
+                const s2 = (r['Estado 2'] || '').toLowerCase();
+                return (s1.includes('inoperativ') || s1.includes('fuera') || s1.includes('baja')) || 
+                       (s2.includes('inoperativ') || s2.includes('fuera') || s2.includes('baja'));
+            }
             return true;
         });
         sortData();
@@ -698,6 +715,20 @@
             document.getElementById('stat-sin-serie').textContent = meta.sin_serie || '—';
             document.getElementById('stat-cimbali').textContent = (meta.marcas || {})['La Cimbali'] || '—';
             document.getElementById('stat-melitta').textContent = (meta.marcas || {})['Melitta'] || '—';
+
+            let ops = 0;
+            let inops = 0;
+            allData.forEach(r => {
+                const s1 = (r['Estado'] || '').toLowerCase();
+                if (s1.includes('inoperativ') || s1.includes('fuera') || s1.includes('baja')) inops++;
+                else if (s1.includes('operativ')) ops++;
+
+                const s2 = (r['Estado 2'] || '').toLowerCase();
+                if (s2.includes('inoperativ') || s2.includes('fuera') || s2.includes('baja')) inops++;
+                else if (s2.includes('operativ')) ops++;
+            });
+            document.getElementById('stat-operativas').textContent = ops;
+            document.getElementById('stat-inoperativas').textContent = inops;
 
             // Fecha
             document.getElementById('fecha-actual').textContent = new Date().toLocaleDateString('es-AR', {day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit'});
