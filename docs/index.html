@@ -32,6 +32,10 @@
                 radial-gradient(ellipse at 20% 50%, rgba(200,168,75,0.04) 0%, transparent 50%),
                 radial-gradient(ellipse at 80% 20%, rgba(59,130,246,0.04) 0%, transparent 50%);
         }
+        
+        .ppm-value { color: var(--accent-blue); font-weight: 600; }
+        .col-water { color: var(--text-secondary); }
+        .eq-separator.col-water { border-left: 1px solid var(--border); padding-left: 16px !important; }
 
         /* HEADER */
         header {
@@ -236,6 +240,19 @@
         .estado-fuera { background: rgba(239,68,68,0.12); color: var(--accent-red); }
         .estado-empty { background: rgba(255,255,255,0.05); color: var(--text-muted); font-size: 11px; }
 
+        .semaforo-circle {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            vertical-align: middle;
+            box-shadow: 0 0 10px currentColor;
+        }
+        .sem-verde { color: #10b981; background: #10b981; }
+        .sem-amarillo { color: #f59e0b; background: #f59e0b; }
+        .sem-rojo { color: #ef4444; background: #ef4444; }
+        .sem-gris { color: #4b5563; background: #4b5563; box-shadow: none; }
+
         /* SEPARATOR between equipo 1 y equipo 2 */
         .eq-separator { 
             border-left: 1px solid var(--border); 
@@ -380,6 +397,9 @@
 
             /* Pagination */
             .pagination-bar { flex-direction: column; gap: 10px; align-items: flex-start; }
+
+            /* Hide water columns on mobile */
+            .col-water { display: none; }
         }
 
         @media (max-width: 480px) {
@@ -466,6 +486,14 @@
                     <th>ESTADO 1</th>
                     <th class="col-eq2">SERVICIOS 1</th>
                     <th class="col-eq2">REPUESTOS 1</th>
+                    <!-- WATER TREATMENT -->
+                    <th class="eq-separator col-water" onclick="sortBy('PPM')">PPM</th>
+                    <th class="col-water">FILTROS</th>
+                    <th class="col-water">ABLANDADOR</th>
+                    <th class="col-water">OSMOSIS</th>
+                    <th class="col-water">ESTADO AGUA</th>
+                    <th class="col-water">SEMÁFORO</th>
+                    
                     <th class="eq-separator col-eq2">EQUIPO 2 — MARCA</th>
                     <th class="col-eq2">SERIE 2</th>
                     <th class="col-eq2">SHOTS 2</th>
@@ -520,6 +548,15 @@
         if (v.includes('manten')) return `<span class="estado-pill estado-mantenimiento">● ${val}</span>`;
         if (v.includes('fuera') || v.includes('baja')) return `<span class="estado-pill estado-fuera">● ${val}</span>`;
         return `<span class="estado-pill estado-empty">${val}</span>`;
+    }
+
+    function semaforoPill(val) {
+        if (!val || val === '') return '<div class="semaforo-circle sem-gris" title="Sin datos"></div>';
+        const v = val.toLowerCase();
+        if (v === 'verde') return '<div class="semaforo-circle sem-verde" title="Óptimo"></div>';
+        if (v === 'amarillo') return '<div class="semaforo-circle sem-amarillo" title="Precaución"></div>';
+        if (v === 'rojo') return '<div class="semaforo-circle sem-rojo" title="Crítico"></div>';
+        return '<div class="semaforo-circle sem-gris" title="Sin datos"></div>';
     }
 
     // ── FILTER & SORT ────────────────────────────────────────────────
@@ -583,6 +620,15 @@
                 <td>${estadoPill(r['Estado'])}</td>
                 <td class="col-eq2">${r['Servicios'] || '—'}</td>
                 <td class="col-eq2">${r['Repuestos'] || '—'}</td>
+                
+                <!-- WATER DATA -->
+                <td class="eq-separator col-water"><span class="ppm-value">${r['PPM'] || '—'}</span></td>
+                <td class="col-water">${r['Filtros'] || '—'}</td>
+                <td class="col-water">${r['Ablandador'] || '—'}</td>
+                <td class="col-water">${r['Osmosis'] || '—'}</td>
+                <td class="col-water">${r['Estado Agua'] || '—'}</td>
+                <td class="col-water" style="text-align:center;">${semaforoPill(r['Semaforo'])}</td>
+
                 <td class="eq-separator col-eq2">${marcaPill(r['Marca 2'])}</td>
                 <td class="col-eq2">${serieTd(r['Serie 2'])}</td>
                 <td class="col-eq2">${shotsTd(r['Shots 2'])}</td>
@@ -603,6 +649,14 @@
                         <div class="detail-item"><div class="detail-label">Estado 2</div>${estadoPill(r['Estado 2'])}</div>
                         <div class="detail-item"><div class="detail-label">Servicios 2</div>${r['Servicios 2'] || '—'}</div>
                         <div class="detail-item"><div class="detail-label">Repuestos 2</div>${r['Repuestos 2'] || '—'}</div>
+                        <!-- Water on Mobile -->
+                        <div class="detail-item" style="grid-column: span 2; margin-top: 8px; border-top: 1px solid var(--border); padding-top: 8px; color: var(--accent-blue);">TRATAMIENTO DE AGUA</div>
+                        <div class="detail-item"><div class="detail-label">PPM</div>${r['PPM'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Filtros</div>${r['Filtros'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Ablandador</div>${r['Ablandador'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Osmosis</div>${r['Osmosis'] || '—'}</div>
+                        <div class="detail-item" style="grid-column: span 2;"><div class="detail-label">Estado Agua</div>${r['Estado Agua'] || '—'}</div>
+                        <div class="detail-item"><div class="detail-label">Semáforo</div>${semaforoPill(r['Semaforo'])}</div>
                     </div>
                 </td>
             </tr>` : ''}
