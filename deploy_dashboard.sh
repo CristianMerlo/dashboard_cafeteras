@@ -7,10 +7,14 @@ python3 src/xlsx_to_json.py
 
 # 2. Verificar si la conversión fue exitosa
 if [ $? -eq 0 ]; then
-    echo "--- ✅ Conversión exitosa. Preparando Git ---"
+    echo "--- ✅ Conversión exitosa. Sincronizando entorno de producción (/docs) ---"
     
-    # 3. Git Workflow
-    git add web/data.json web/index.html
+    # 3. Preparar GitHub Pages
+    cp web/data.json docs/data.json
+    cp web/index.html docs/index.html
+    
+    # 4. Git Workflow
+    git add web/data.json web/index.html docs/data.json docs/index.html
     
     # Verificar si hay cambios pendientes
     if ! git diff-index --quiet HEAD --; then
