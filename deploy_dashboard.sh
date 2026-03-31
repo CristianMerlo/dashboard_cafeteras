@@ -2,7 +2,14 @@
 
 echo "--- 🚀 Iniciando Pipeline de Despliegue NEXUS ---"
 
-# 1. Ejecutar conversión Excel → JSON
+# 1. Sincronizar datos de Google Sheets hacia el Excel base
+python3 src/sync_google_sheet.py
+if [ $? -ne 0 ]; then
+    echo "❌ Falló la sincronización con Google Sheets. Abortando despliegue."
+    exit 1
+fi
+
+# 2. Ejecutar conversión Excel → JSON
 python3 src/xlsx_to_json.py
 
 # 2. Verificar si la conversión fue exitosa
