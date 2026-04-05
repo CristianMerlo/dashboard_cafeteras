@@ -1,10 +1,10 @@
 {
     "meta": {
-        "total_locales": 112,
+        "total_locales": 124,
         "con_serie_confirmada": 66,
-        "sin_serie": 46,
+        "sin_serie": 58,
         "marcas": {
-            "La Cimbali": 122,
+            "La Cimbali": 121,
             "Melitta": 9
         }
     },
@@ -29,7 +29,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "no cuenta con ningun sistema de agua",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Aldrey",
@@ -51,7 +59,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Alto Comahue",
@@ -73,7 +89,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Avellaneda",
@@ -95,7 +119,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "sistema ablandador esta desconectado",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Av. Córdoba",
@@ -117,7 +149,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Av. de Mayo",
@@ -139,7 +179,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "ablandador con mugre, falta de mantenimiento",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Av. de Mayo 2",
@@ -161,7 +209,15 @@
             "Ablandador": "No",
             "Osmosis": "Sí",
             "Estado Agua": "",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Bariloche",
@@ -183,7 +239,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Berazategui",
@@ -205,7 +269,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Filtro de polipropileno saturado",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Boedo",
@@ -227,7 +299,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "no cuenta con sistema de limpieza de agua",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Bolivar",
@@ -249,7 +329,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Cabildo",
@@ -271,7 +359,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Cabildo 2",
@@ -293,7 +389,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Callao",
@@ -315,7 +419,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Canning",
@@ -337,7 +449,15 @@
             "Ablandador": "Sí",
             "Osmosis": "Sí",
             "Estado Agua": "",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Carlos Paz",
@@ -359,7 +479,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Carre Quilmes",
@@ -381,7 +509,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Castelar",
@@ -403,7 +539,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Catamarca",
@@ -425,7 +569,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "City Bell",
@@ -447,7 +599,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "City Center",
@@ -469,7 +629,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Constitución",
@@ -491,7 +659,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "cafetera no cuenta con ningun tipo de sistema de limpieza de agua ",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Corrientes",
@@ -513,7 +689,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Ezeiza",
@@ -535,7 +719,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Flores",
@@ -557,7 +749,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Solo tiene filtros la cafetera",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Formosa",
@@ -579,7 +779,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Francisco Álvarez",
@@ -601,7 +809,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Funes",
@@ -623,7 +839,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Gallegos",
@@ -645,7 +869,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Gonnet",
@@ -667,7 +899,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Revision de sistema de ablandador",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Grand Bourg",
@@ -689,7 +929,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Gualeguaychú",
@@ -711,7 +959,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Güemes",
@@ -733,7 +989,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "José C. Paz",
@@ -755,7 +1019,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Jujuy",
@@ -777,7 +1049,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Junin",
@@ -799,7 +1079,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Pampa",
@@ -821,7 +1109,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Sin sal, tiene hongos precisa limpieza",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Perla",
@@ -843,7 +1139,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Plata 2",
@@ -865,7 +1169,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Plata 3",
@@ -887,7 +1199,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Plata 4",
@@ -909,7 +1229,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "La Plata 6",
@@ -931,7 +1259,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Laferrere 2",
@@ -953,7 +1289,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Lanús 2",
@@ -975,7 +1319,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Filtros cambiados hace 2 días 30/03",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Lanús Este",
@@ -997,7 +1349,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Liniers",
@@ -1019,7 +1379,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Lomas",
@@ -1041,7 +1409,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Filtro de partículas, sal y carbón",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Lomas Auto",
@@ -1063,7 +1439,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "No cuentan con filtros, ni sistema de ósmosis",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Los Gallegos",
@@ -1085,7 +1469,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Luján",
@@ -1107,7 +1499,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Mar del Plata Peat.",
@@ -1129,7 +1529,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Mendoza Centro",
@@ -1151,7 +1559,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Mendoza Colon",
@@ -1173,7 +1589,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Merlo",
@@ -1195,7 +1619,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Monte Grande",
@@ -1217,7 +1649,15 @@
             "Ablandador": "No",
             "Osmosis": "Sí",
             "Estado Agua": " Se recomienda realizar una limpieza del sistema ",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Moreno",
@@ -1239,7 +1679,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Neuquén Centro",
@@ -1261,7 +1709,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Once",
@@ -1283,7 +1739,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "filtros colocados pero sin conectar",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Olavarria",
@@ -1305,7 +1769,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Palmas Pilar",
@@ -1327,7 +1799,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Parana",
@@ -1349,7 +1829,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "No cuenta con sistema, ni filtros",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Parque Chacabuco",
@@ -1371,7 +1859,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Operativo, falta limpieza",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Peatonal Salta",
@@ -1393,7 +1889,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Pellegrini",
@@ -1415,7 +1919,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Plaza España",
@@ -1437,7 +1949,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Pompeya",
@@ -1459,7 +1979,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "No cuenta con sistema, ni filtros",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Portal Rosario",
@@ -1481,7 +2009,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Portal Salta",
@@ -1503,7 +2039,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Portal Tucuman",
@@ -1525,7 +2069,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Primera Junta",
@@ -1547,7 +2099,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Operativo, falta limpieza ",
-            "Semaforo": "Amarillo"
+            "Semaforo": "Amarillo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Puma",
@@ -1569,7 +2129,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Quilmes P.",
@@ -1591,7 +2159,15 @@
             "Ablandador": "Sí",
             "Osmosis": "No",
             "Estado Agua": "Estado ok ",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rafael Nuñez",
@@ -1613,7 +2189,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rafaela",
@@ -1635,7 +2219,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Ramos Mejía",
@@ -1657,7 +2249,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Republica",
@@ -1679,7 +2279,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Resistencia",
@@ -1701,7 +2309,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Ribera Santa Fe",
@@ -1723,7 +2339,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rio Gallegos",
@@ -1745,7 +2369,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rio Grande",
@@ -1767,7 +2399,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rosario Sur",
@@ -1789,7 +2429,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Rotonda",
@@ -1811,7 +2459,15 @@
             "Ablandador": "Sí",
             "Osmosis": "Sí",
             "Estado Agua": "Todos los sistemas desactivados",
-            "Semaforo": "Verde"
+            "Semaforo": "Verde",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "S. del Estero",
@@ -1833,7 +2489,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Salta Auto",
@@ -1855,7 +2519,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Salta Libertad",
@@ -1877,7 +2549,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Salta Noa",
@@ -1899,7 +2579,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Salta Oran",
@@ -1921,7 +2609,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Salta Peatonal",
@@ -1943,7 +2639,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Fernando",
@@ -1965,7 +2669,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Isidro",
@@ -1987,7 +2699,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Juan",
@@ -2009,7 +2729,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Juan 2",
@@ -2031,7 +2759,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Justo",
@@ -2053,7 +2789,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Luis",
@@ -2075,7 +2819,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Martin 2",
@@ -2097,7 +2849,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Martin Auto",
@@ -2119,7 +2879,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Martin Peatonal",
@@ -2141,7 +2909,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Miguel 3",
@@ -2163,7 +2939,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Miguel A.",
@@ -2185,7 +2969,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Nicolas",
@@ -2207,7 +2999,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Rafael",
@@ -2229,7 +3029,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "San Telmo",
@@ -2251,7 +3059,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Santa Fe P.",
@@ -2273,7 +3089,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Spinetto",
@@ -2295,7 +3119,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Tandil",
@@ -2317,7 +3149,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Terrada",
@@ -2339,29 +3179,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
-        },
-        {
-            "Local": "Tucuman 2 a 9",
-            "Sigla": "FTU...",
-            "Marca 1": "La Cimbali",
-            "Serie 1": "",
-            "Shots": "",
-            "Estado": "operativa. ",
-            "Servicios": "",
-            "Repuestos": "",
-            "Marca 2": "",
-            "Serie 2": "",
-            "Shots 2": "",
-            "Estado 2": "",
-            "Servicios 2": "",
-            "Repuestos 2": "",
-            "PPM": "",
-            "Filtros": "No",
-            "Ablandador": "No",
-            "Osmosis": "No",
-            "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Ushuaia",
@@ -2383,7 +3209,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Villa del Parque",
@@ -2405,7 +3239,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Walmart Sta Fe",
@@ -2427,7 +3269,15 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Wilde",
@@ -2449,7 +3299,15 @@
             "Ablandador": "No",
             "Osmosis": "Sí",
             "Estado Agua": "Osmosis desactivado",
-            "Semaforo": "Rojo"
+            "Semaforo": "Rojo",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
         },
         {
             "Local": "Zarate",
@@ -2471,7 +3329,405 @@
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": ""
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": ""
+        },
+        {
+            "Local": "Tucumán 2",
+            "Sigla": "FTU2",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman2@mostazaweb.com.ar",
+            "Dirección": "Av. Aconquija 1300",
+            "Localidad": "YERBA BUENA",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "A la calle",
+            "Razon Social": "GASTRONOMIA MODERNA SRL"
+        },
+        {
+            "Local": "Tucumán 3",
+            "Sigla": "FTU3",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman3@mostazaweb.com.ar",
+            "Dirección": "25 DE MAYO 392",
+            "Localidad": "S.M. DE TUCUMAN",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "A la calle",
+            "Razon Social": "DRAS SRL"
+        },
+        {
+            "Local": "Tucumán 4",
+            "Sigla": "FTU4",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman4@mostazaweb.com.ar",
+            "Dirección": "Av Juan Domingo Peron 1900",
+            "Localidad": "YERBA BUENA",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "Shopping",
+            "Razon Social": "ZONSUR SRL"
+        },
+        {
+            "Local": "Tucumán 5",
+            "Sigla": "FTC5",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman5@mostazaweb.com.ar",
+            "Dirección": "Av. Mate de Luna 4107",
+            "Localidad": "YERBA BUENA",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "Auto Mostaza",
+            "Razon Social": "FELMOR GROUP SAS"
+        },
+        {
+            "Local": "Tucumán 6",
+            "Sigla": "FTC6",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman6@mostazaweb.com.ar",
+            "Dirección": "SOLDATI 26",
+            "Localidad": "S.M. DE TUCUMAN",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "Auto Mostaza",
+            "Razon Social": "REDFOOD SRL"
+        },
+        {
+            "Local": "Tucumán 7",
+            "Sigla": "FMTU7",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "concepcion@mostazaweb.com.ar",
+            "Dirección": "San Martin 1563",
+            "Localidad": "CONCEPCION",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "Auto Mostaza",
+            "Razon Social": "GOLDENSIDE S. R. L."
+        },
+        {
+            "Local": "Tucumán 8",
+            "Sigla": "FTC8",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman8@mostazaweb.com.ar",
+            "Dirección": "-",
+            "Localidad": "-",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "A la calle",
+            "Razon Social": "PUNTO 24 SRL"
+        },
+        {
+            "Local": "Tucumán 9",
+            "Sigla": "FMTU9",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "tucuman9@mostazaweb.com.ar",
+            "Dirección": "-",
+            "Localidad": "-",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "A la calle",
+            "Razon Social": "MILON S.A.S"
+        },
+        {
+            "Local": "Terrada",
+            "Sigla": "TERR",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Cecilia Riccadonna",
+            "Supervisor": "Raúl Ayala",
+            "Mail": "-",
+            "Dirección": "-",
+            "Localidad": "-",
+            "Provincia": "CABA",
+            "Tipo de Local": "-",
+            "Razon Social": "-"
+        },
+        {
+            "Local": "Portal Tucumán",
+            "Sigla": "PTUC",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Martin Medina",
+            "Supervisor": "Ailen Perez",
+            "Mail": "-",
+            "Dirección": "-",
+            "Localidad": "-",
+            "Provincia": "TUCUMAN",
+            "Tipo de Local": "-",
+            "Razon Social": "-"
+        },
+        {
+            "Local": "Salta Noa",
+            "Sigla": "SNOA",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Hernán Dalto",
+            "Supervisor": "Fabrizio Bollero",
+            "Mail": "-",
+            "Dirección": "-",
+            "Localidad": "SALTA",
+            "Provincia": "SALTA",
+            "Tipo de Local": "-",
+            "Razon Social": "-"
+        },
+        {
+            "Local": "Oroño",
+            "Sigla": "FROA",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Melisa Castillo",
+            "Supervisor": "Sabrina Orlando",
+            "Mail": "autoorono@mostazaweb.com.ar",
+            "Dirección": "Oroño 3120",
+            "Localidad": "Rosario",
+            "Provincia": "SANTA FE",
+            "Tipo de Local": "Auto Mostaza",
+            "Razon Social": "MADILAGA S.A."
+        },
+        {
+            "Local": "Alto Rosario",
+            "Sigla": "AROS",
+            "Marca 1": "",
+            "Serie 1": "",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": "",
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "Melisa Castillo",
+            "Supervisor": "Sabrina Orlando",
+            "Mail": "-",
+            "Dirección": "-",
+            "Localidad": "-",
+            "Provincia": "SANTA FE",
+            "Tipo de Local": "-",
+            "Razon Social": "-"
         }
     ]
 }
