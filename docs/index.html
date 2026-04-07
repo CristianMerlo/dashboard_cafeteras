@@ -409,6 +409,35 @@
 
         /* Desktop: ocultar columna expand */
         .col-expand { display: none; }
+
+        /* DRIVE LINK */
+        .drive-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            border-radius: 6px;
+            background: rgba(255,255,255,0.05);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            margin-right: 10px;
+            text-decoration: none;
+            vertical-align: middle;
+        }
+        .drive-link:hover {
+            background: rgba(59,130,246,0.15);
+            border-color: var(--accent-blue);
+            color: white;
+            transform: translateY(-1px) scale(1.05);
+            box-shadow: 0 4px 12px rgba(59,130,246,0.2);
+        }
+        .drive-icon {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
     </style>
 </head>
 <body>
@@ -490,6 +519,7 @@
                 <tr>
                     <th class="col-expand"></th>
                     <th onclick="sortBy('Local')">LOCAL</th>
+                    <th title="Carpeta de Informes en Drive">DRIVE</th>
                     <th onclick="sortBy('Sigla')">SIGLA</th>
                     <th>EQUIPO 1 — MARCA</th>
                     <th onclick="sortBy('Serie 1')">SERIE 1</th>
@@ -630,6 +660,15 @@
                     ${hasEq2(r) ? `<button class="btn-expand" onclick="toggleDetail(this, ${i})" title="Ver equipo 2">+</button>` : ''}
                 </td>
                 <td class="td-local">${r['Local'] || '—'}</td>
+                <td style="text-align:center;">
+                    ${r['Link Drive'] ? `
+                        <a href="${r['Link Drive']}" target="_blank" class="drive-link" title="Abrir carpeta de informes en Google Drive">
+                            <svg class="drive-icon" viewBox="0 0 24 24">
+                                <path d="M7.71,3.5L1.15,15L4.58,21L11.13,9.5M9.73,15L6.3,21L19.42,21L22.85,15M22.28,14L15.7,2.5L8.87,2.5L15.46,14"/>
+                            </svg>
+                        </a>
+                    ` : '<span style="color:var(--text-muted); font-size:11px;">—</span>'}
+                </td>
                 <td><span class="td-sigla">${r['Sigla'] || '—'}</span></td>
                 <td>${marcaPill(r['Marca 1'])}</td>
                 <td>${serieTd(r['Serie 1'])}</td>

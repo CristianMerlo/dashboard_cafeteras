@@ -1,11 +1,12 @@
 {
     "meta": {
-        "total_locales": 118,
-        "con_serie_confirmada": 66,
-        "sin_serie": 52,
+        "total_locales": 119,
+        "con_serie_confirmada": 68,
+        "sin_serie": 51,
         "marcas": {
-            "La Cimbali": 118,
-            "Melitta": 8
+            "La Cimbali": 116,
+            "Melitta": 10,
+            "No especificado": 1
         }
     },
     "locales": [
@@ -37,7 +38,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1ZhJgVsoazQ7Vwrq2EBQcsaeMtANd17c0"
         },
         {
             "Local": "Aldrey",
@@ -67,7 +69,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1qAyTmueZR1M19DHNsKf_LdYxtCM4Uz54"
         },
         {
             "Local": "Alto Comahue",
@@ -97,7 +100,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1VCZUsiZJhUCoDLupmasxkpwDx0wAIBIc"
         },
         {
             "Local": "Avellaneda",
@@ -116,7 +120,7 @@
             "Repuestos 2": "",
             "PPM": "",
             "Filtros": "No",
-            "Ablandador": "Sí",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "sistema ablandador esta desconectado",
             "Semaforo": "",
@@ -127,7 +131,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1En62hF6PQyiFDaKunAUBan5VDP5_mZnd"
         },
         {
             "Local": "Av. Córdoba",
@@ -157,7 +162,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/13V6I7mEG4v-cnyKzEk3Bq_2aBLNAir8H"
         },
         {
             "Local": "Av. de Mayo",
@@ -176,7 +182,7 @@
             "Repuestos 2": "",
             "PPM": "329ppm",
             "Filtros": "No",
-            "Ablandador": "Sí",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "ablandador con mugre, falta de mantenimiento",
             "Semaforo": "Rojo",
@@ -187,14 +193,15 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1sXAJVpoNWPU-bVw963NmNCvRzOVKsD4k"
         },
         {
             "Local": "Av. de Mayo 2",
             "Sigla": "FAVM",
             "Marca 1": "La Cimbali",
-            "Serie 1": 1969713,
-            "Shots": 204160.0,
+            "Serie 1": 1842018,
+            "Shots": 392611.0,
             "Estado": "operativa ",
             "Servicios": "",
             "Repuestos": "",
@@ -204,12 +211,12 @@
             "Estado 2": "operativa",
             "Servicios 2": "",
             "Repuestos 2": "",
-            "PPM": "295ppm",
+            "PPM": "329ppm",
             "Filtros": "No",
             "Ablandador": "No",
-            "Osmosis": "Sí",
-            "Estado Agua": "",
-            "Semaforo": "Verde",
+            "Osmosis": "No",
+            "Estado Agua": "ablandador con mugre, falta de mantenimiento",
+            "Semaforo": "Rojo",
             "Regional": "",
             "Supervisor": "",
             "Mail": "",
@@ -217,7 +224,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/13sW9fxUWav3izbCcovWAxfP7_6kAuDb1"
         },
         {
             "Local": "Bariloche",
@@ -247,7 +255,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1PhvPxI77P34u06B8F5lRkJNJigdyfrT9"
         },
         {
             "Local": "Berazategui",
@@ -265,7 +274,7 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": 631,
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Filtro de polipropileno saturado",
@@ -277,7 +286,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1Jw-s0I_9zJ0nXl1borrzVUF7HirOYR8I"
         },
         {
             "Local": "Boedo",
@@ -307,7 +317,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1GsFldZlBAKTbCqgm0E8xBWntY8BSwZfN"
         },
         {
             "Local": "Bolivar",
@@ -337,7 +348,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1SoTlcuobhcbVBlS3PWXUoO0x8K0sX2YT"
         },
         {
             "Local": "Cabildo",
@@ -367,7 +379,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1TNLPi9APqlHdnrywwUq0i93CAYpXLRNt"
         },
         {
             "Local": "Cabildo 2",
@@ -397,7 +410,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1vBFHLeclxcwOWg-u2LquL9980TvPpJgA"
         },
         {
             "Local": "Callao",
@@ -427,7 +441,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1shxP-4qsB6l42Im7MDWyZwVtRGGFH3Re"
         },
         {
             "Local": "Canning",
@@ -446,8 +461,8 @@
             "Repuestos 2": "",
             "PPM": "16ppm ",
             "Filtros": "No",
-            "Ablandador": "Sí",
-            "Osmosis": "Sí",
+            "Ablandador": "No",
+            "Osmosis": "No",
             "Estado Agua": "",
             "Semaforo": "Verde",
             "Regional": "",
@@ -457,7 +472,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1wN95zzAVNzhV4XRZIYO8ZORnTcVbSPdq"
         },
         {
             "Local": "Carre Quilmes",
@@ -487,7 +503,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1zvHd6S_tMoTLXWSMe_3K-YN4EuCjcSb8"
         },
         {
             "Local": "Castelar",
@@ -517,7 +534,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1MJ7viAE7s13lEuMRWvfO3IHEgAJzRS2O"
         },
         {
             "Local": "Catamarca",
@@ -547,7 +565,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1oI8HnJ-GLox_qDdCQIq8jnjD7Gki_IkT"
         },
         {
             "Local": "City Bell",
@@ -577,7 +596,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1lZ_yyHrwOZAfzvOH7GI5PZfBxMHXK2Bi"
         },
         {
             "Local": "City Center",
@@ -607,7 +627,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1Rh4yc1LXBCnUqE_K3QTHDwviJEnWLtyl"
         },
         {
             "Local": "Constitución",
@@ -637,7 +658,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/101QtsYM5p4M30alr0EktRaMXPVJuG-nx"
         },
         {
             "Local": "Corrientes",
@@ -667,7 +689,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1W-VxcDsXu4VspzAvVpMtcK7VHHhzQtmm"
         },
         {
             "Local": "Ezeiza",
@@ -685,7 +708,7 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "388ppm",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
@@ -697,7 +720,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/10xKi0FnHL_toMHy26bFcMWXbLMmSzQQT"
         },
         {
             "Local": "Flores",
@@ -715,11 +739,11 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "179ppm",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Solo tiene filtros la cafetera",
-            "Semaforo": "Amarillo",
+            "Semaforo": "Rojo",
             "Regional": "",
             "Supervisor": "",
             "Mail": "",
@@ -727,7 +751,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/14JcnI9zPYQDahTPAE-R7Q8W-8hRPyQSB"
         },
         {
             "Local": "Formosa",
@@ -757,7 +782,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/11pkrqoXQVQOBdIVIvYurL9d3b-qTsaHu"
         },
         {
             "Local": "Francisco Álvarez",
@@ -787,7 +813,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1KNYUKtduxKr0AHaRmIP1Irde8PCyzvuL"
         },
         {
             "Local": "Funes",
@@ -817,7 +844,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1FRAlirWHACjylTSqZ4EJN7To9B7QfvWj"
         },
         {
             "Local": "Gallegos",
@@ -847,7 +875,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1Y2fh6fLSlxGps7ByygBhrZgXXZ7pqN4z"
         },
         {
             "Local": "Gonnet",
@@ -866,7 +895,7 @@
             "Repuestos 2": "",
             "PPM": 685,
             "Filtros": "No",
-            "Ablandador": "Sí",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Revision de sistema de ablandador",
             "Semaforo": "Rojo",
@@ -877,7 +906,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/13tjeLlUTB2UQnjf5cxYJvinj1c2fIaTt"
         },
         {
             "Local": "Grand Bourg",
@@ -907,7 +937,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1RbH8OOe3hTLOxMK0KP7rxPQSRT8sF-Vb"
         },
         {
             "Local": "Gualeguaychú",
@@ -937,7 +968,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1ey3Z5wgyEUNHz1bEEs5J6Qshyhfdz53G"
         },
         {
             "Local": "Güemes",
@@ -967,7 +999,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/16uBr7522bOY8ShYS7vriIR9G3gDJqA99"
         },
         {
             "Local": "José C. Paz",
@@ -997,7 +1030,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1IPBLTH0WrGGq1mgbm8LrpRf57aAHzTcq"
         },
         {
             "Local": "Jujuy",
@@ -1027,7 +1061,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1pglqEh69xMIRBDi0kUcXwP09c146GbX0"
         },
         {
             "Local": "Junin",
@@ -1057,7 +1092,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1BDIS5zbcUUTY9r7YrKjvEtT_peA3j7c3"
         },
         {
             "Local": "La Pampa",
@@ -1076,7 +1112,7 @@
             "Repuestos 2": "",
             "PPM": "",
             "Filtros": "No",
-            "Ablandador": "Sí",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Sin sal, tiene hongos precisa limpieza",
             "Semaforo": "",
@@ -1087,7 +1123,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1ZS7UPJ8D8wjwC0vNL6BKAnG3GDEmbqBC"
         },
         {
             "Local": "La Perla",
@@ -1117,7 +1154,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1L7enhl1LLVsbsE_nU3y29Hxvh4LpSjjl"
         },
         {
             "Local": "La Plata 2",
@@ -1147,7 +1185,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1ykYqIahQwj8ggl9OBqqaSwPJERS1zab6"
         },
         {
             "Local": "La Plata 3",
@@ -1177,7 +1216,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1Caiyi3xNlNfHb_NinPxXbkKw6cAzXWDs"
         },
         {
             "Local": "La Plata 4",
@@ -1207,7 +1247,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1bGNeLnEDN6RZe_Ej3HJs7qTyIvIF_am-"
         },
         {
             "Local": "La Plata 6",
@@ -1237,7 +1278,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1vT94jBvmIyz15QQeIc9ywpWNHA4HRkJO"
         },
         {
             "Local": "Laferrere 2",
@@ -1267,7 +1309,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1sXR0pU00Ek-LugDtI5TEdZGpTHfzktuc"
         },
         {
             "Local": "Lanús 2",
@@ -1285,11 +1328,11 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "155ppm",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Filtros cambiados hace 2 días 30/03",
-            "Semaforo": "Amarillo",
+            "Semaforo": "Rojo",
             "Regional": "Cecilia Riccadonna",
             "Supervisor": "Aylen Crespin",
             "Mail": "",
@@ -1297,14 +1340,15 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/18zHByyU8IVRiQWpaoLQndZryiOsdw0Vo"
         },
         {
-            "Local": "Lanus 2",
-            "Sigla": "FLA2",
+            "Local": "Lanús Peatonal",
+            "Sigla": "FLAP",
             "Marca 1": "La Cimbali",
-            "Serie 1": "",
-            "Shots": "",
+            "Serie 1": 1856434,
+            "Shots": 240366.0,
             "Estado": "operativa ",
             "Servicios": "",
             "Repuestos": "",
@@ -1314,12 +1358,12 @@
             "Estado 2": "",
             "Servicios 2": "",
             "Repuestos 2": "",
-            "PPM": "",
+            "PPM": "155ppm",
             "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
-            "Estado Agua": "",
-            "Semaforo": "",
+            "Estado Agua": "Filtros cambiados hace 2 días 30/03",
+            "Semaforo": "Rojo",
             "Regional": "Cecilia Riccadonna",
             "Supervisor": "Aylen Crespin",
             "Mail": "",
@@ -1327,7 +1371,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/17cTg_EPtlTxoAvhituoMBC23q_GXcv2g"
         },
         {
             "Local": "Liniers",
@@ -1357,7 +1402,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1gZOJbgCdlDxjO9eBvW_s0d8EMZo-GkqX"
         },
         {
             "Local": "Lomas",
@@ -1375,11 +1421,11 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "174ppm",
-            "Filtros": "Sí",
-            "Ablandador": "Sí",
+            "Filtros": "No",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Filtro de partículas, sal y carbón",
-            "Semaforo": "Verde",
+            "Semaforo": "Rojo",
             "Regional": "",
             "Supervisor": "",
             "Mail": "",
@@ -1387,7 +1433,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/12ONiKokXaSyz_t-i61iyb37idYg38jti"
         },
         {
             "Local": "Lomas Auto",
@@ -1417,7 +1464,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/17pBWksqphbx3Ly9H_8-3-Yav423o8LTs"
         },
         {
             "Local": "Los Gallegos",
@@ -1447,7 +1495,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/17LC1BB-05vDkUViIoZgisU60m9yEjFND"
         },
         {
             "Local": "Luján",
@@ -1477,7 +1526,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1hFDf_ljGMYTRQ3duYzv8ogJRBjry7AMc"
         },
         {
             "Local": "Mar del Plata Peat.",
@@ -1507,7 +1557,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1tJNvr5Y0rlffuz1BM4CG0idU9bO32Gf8"
         },
         {
             "Local": "Mendoza Centro",
@@ -1537,7 +1588,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1ZOw2Z4YqT1174_qQsu5pBmNNHU-umCbB"
         },
         {
             "Local": "Mendoza Colon",
@@ -1567,7 +1619,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1kiwH3rtXJOY80iCvDwLyL5UfusrVUTeP"
         },
         {
             "Local": "Merlo",
@@ -1597,7 +1650,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1FOi-R4wf2sqoZrJR_d4P-54QYHfDK5Id"
         },
         {
             "Local": "Monte Grande",
@@ -1617,9 +1671,9 @@
             "PPM": "638ppm",
             "Filtros": "No",
             "Ablandador": "No",
-            "Osmosis": "Sí",
+            "Osmosis": "No",
             "Estado Agua": " Se recomienda realizar una limpieza del sistema ",
-            "Semaforo": "Verde",
+            "Semaforo": "Rojo",
             "Regional": "",
             "Supervisor": "",
             "Mail": "",
@@ -1627,7 +1681,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1wNdeIQQko7EtALmzE7knBjzu73-CWrlI"
         },
         {
             "Local": "Moreno",
@@ -1657,7 +1712,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1rUPuHiQFPkjKF7IPrti37H2VsglL3Hpj"
         },
         {
             "Local": "Neuquén Centro",
@@ -1687,7 +1743,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1vECVVvSiU-TpJH6H5uAEO-k2JwXsKY5R"
         },
         {
             "Local": "Once",
@@ -1717,7 +1774,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1vfMtI-nYAhWjXIaKA5kU7c6jnRG9qYXT"
         },
         {
             "Local": "Olavarria",
@@ -1747,7 +1805,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1TSj2LxtZ3sz8xUHVLzZBSqLZtj3FXZpE"
         },
         {
             "Local": "Palmas Pilar",
@@ -1777,7 +1836,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1KX9NsTlatGG7oxJWCxhyScIOjW88aSD1"
         },
         {
             "Local": "Parana",
@@ -1807,7 +1867,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1d7tGkB6L1KPFDwxEL91c16hXe8pU9kpg"
         },
         {
             "Local": "Parque Chacabuco",
@@ -1825,8 +1886,8 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "132ppm",
-            "Filtros": "Sí",
-            "Ablandador": "Sí",
+            "Filtros": "No",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Operativo, falta limpieza",
             "Semaforo": "Amarillo",
@@ -1837,13 +1898,14 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1YJlaAp23nFyqNIbGjIqquIK5xRX25QlE"
         },
         {
             "Local": "Peatonal Salta",
             "Sigla": "FSAA",
-            "Marca 1": "La Cimbali",
-            "Serie 1": 1856432,
+            "Marca 1": "Melitta",
+            "Serie 1": "2437SBB00464",
             "Shots": 30000.0,
             "Estado": "operativa. ",
             "Servicios": "",
@@ -1867,7 +1929,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1nCJI9Qmz_QwtV8VprhQRKIlDzTlH_OCT"
         },
         {
             "Local": "Pellegrini",
@@ -1897,7 +1960,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1LQuxF9jbypmAS7C4xv7f2N2bGw9PGCf0"
         },
         {
             "Local": "Pompeya",
@@ -1927,7 +1991,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1rPmpR7us09VXB-I9wiu4zjDBGFQZLF_G"
         },
         {
             "Local": "Portal Rosario",
@@ -1957,7 +2022,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1I8iKYD75NgzKMhAjrQ2ElUMAQ9bnrlMx"
         },
         {
             "Local": "Portal Salta",
@@ -1987,7 +2053,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1-oYYaAlyUo38yqrIyydQsNWvLeiavGK8"
         },
         {
             "Local": "Portal Tucuman",
@@ -2017,7 +2084,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1kUR7j4mt4-1RzGih1SOjvTpU7wZdKUV3"
         },
         {
             "Local": "Primera Junta",
@@ -2035,8 +2103,8 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "97ppm",
-            "Filtros": "Sí",
-            "Ablandador": "Sí",
+            "Filtros": "No",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Operativo, falta limpieza ",
             "Semaforo": "Amarillo",
@@ -2047,7 +2115,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1YBIVHpHk_d9iigSzb8VFk3xrNK5QCgOB"
         },
         {
             "Local": "Puma",
@@ -2077,7 +2146,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/17fnX4QUpaE2jWk1MRAaY8Td_gzYoR2lC"
         },
         {
             "Local": "Quilmes P.",
@@ -2096,7 +2166,7 @@
             "Repuestos 2": "",
             "PPM": "",
             "Filtros": "No",
-            "Ablandador": "Sí",
+            "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "Estado ok ",
             "Semaforo": "",
@@ -2107,7 +2177,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1U5H4fb_APGjKxXVwfX7vi0tW1gnVE_3W"
         },
         {
             "Local": "Rafaela",
@@ -2137,7 +2208,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1EYtmOvp68ajAz8Ow59PuNHtfnqrrje0Z"
         },
         {
             "Local": "Ramos Mejía",
@@ -2155,11 +2227,11 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "136ppm",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
-            "Semaforo": "Verde",
+            "Semaforo": "Amarillo",
             "Regional": "Martin Medina",
             "Supervisor": "Micaela Pardo",
             "Mail": "",
@@ -2167,7 +2239,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/15CDiZqAXfFFIDbJLQegV8bcV5aex3utz"
         },
         {
             "Local": "Republica",
@@ -2197,7 +2270,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1PWaQYhri2uxIq8h6RWPBsPFhJ1OzU2v-"
         },
         {
             "Local": "Resistencia",
@@ -2227,7 +2301,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1pIJsVakpjZAYQT4GsUcvu8-tGxU-1zOk"
         },
         {
             "Local": "Ribera Santa Fe",
@@ -2257,7 +2332,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1m1x3rtfkZfArmARAKZJUZr4Cv79kzSYt"
         },
         {
             "Local": "Rio Gallegos",
@@ -2287,7 +2363,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1V82TfYWGciOxly8TNuPxONKWgC7vOAZT"
         },
         {
             "Local": "Rio Grande",
@@ -2317,7 +2394,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1h-KObaSfRzM8E6ETkIx-qgeg3HtKVIfE"
         },
         {
             "Local": "Rosario Sur",
@@ -2347,7 +2425,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1JNur57N7FAN7mht9T5H6XAyC7sBsnLUG"
         },
         {
             "Local": "Rotonda",
@@ -2365,11 +2444,11 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": 411,
-            "Filtros": "Sí",
-            "Ablandador": "Sí",
-            "Osmosis": "Sí",
+            "Filtros": "No",
+            "Ablandador": "No",
+            "Osmosis": "No",
             "Estado Agua": "Todos los sistemas desactivados",
-            "Semaforo": "Verde",
+            "Semaforo": "Rojo",
             "Regional": "",
             "Supervisor": "",
             "Mail": "",
@@ -2377,7 +2456,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1OtimvlVZJSMTYjOgNcOsRD0BkOQPbljE"
         },
         {
             "Local": "S. del Estero",
@@ -2407,7 +2487,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/19FxZcJsd_OJVmXsHOn6ee2I7u9-OtxCL"
         },
         {
             "Local": "Salta Auto",
@@ -2437,7 +2518,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1y7Ywgf7QlLgKVzB7EIYGOx_4KOhW8xrs"
         },
         {
             "Local": "Salta Libertad",
@@ -2467,7 +2549,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1VxW6opRBgaABTcrXVdoYADsnWAz6HXlT"
         },
         {
             "Local": "Salta Oran",
@@ -2497,13 +2580,14 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1p5Co_dnO5Y6SW08YkA6g7pKeGtxCL5Hw"
         },
         {
             "Local": "Salta Peatonal",
             "Sigla": "FSAA",
-            "Marca 1": "La Cimbali",
-            "Serie 1": "",
+            "Marca 1": "Melitta",
+            "Serie 1": "2437SBB00464",
             "Shots": "",
             "Estado": "operativa. ",
             "Servicios": 21.0,
@@ -2527,7 +2611,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1MnRRoPgXlWnViOuZrj-f3_PvWkJuhYnl"
         },
         {
             "Local": "San Fernando",
@@ -2557,7 +2642,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1MHW6GJXjW2JRZ0IqoM6_q_vIwudAZuLs"
         },
         {
             "Local": "San Isidro",
@@ -2587,7 +2673,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/16YzDgCiC_i8oE2qoSR0tIa4K-uCE_pVb"
         },
         {
             "Local": "San Juan",
@@ -2617,7 +2704,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1zUBpHAqfTKBw1S7ioh5N0YukyhYOsrJU"
         },
         {
             "Local": "San Juan 2",
@@ -2647,7 +2735,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1HOIjTC84I5-8fSAsXNTaGXl8siUsDZzE"
         },
         {
             "Local": "San Justo",
@@ -2665,7 +2754,7 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "412ppm",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "falta de mantenimiento",
@@ -2677,7 +2766,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1kdxOX-A63KkQl3E7maTHD0uGC6alkAO2"
         },
         {
             "Local": "San Luis",
@@ -2707,7 +2797,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1pGX28ea_7kBP3b1UqHAePrFsmIP56N7V"
         },
         {
             "Local": "San Martin 2",
@@ -2737,7 +2828,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1D0jcNgEZUPwWTFGgR_B3wxviCCUBlq3u"
         },
         {
             "Local": "San Martin Auto",
@@ -2767,7 +2859,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1zSrHOUsO9Ep-hctjzqNcI7yV0sIGp1YL"
         },
         {
             "Local": "San Martin Peatonal",
@@ -2797,7 +2890,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1WK_MyqasQYxVSOAYC1MUsjU_dEOKoqko"
         },
         {
             "Local": "San Miguel 3",
@@ -2827,7 +2921,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1330DObO-bTtUlwaGhOBzeW7KY4L0ttT3"
         },
         {
             "Local": "San Miguel A.",
@@ -2857,7 +2952,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1v2zLCHjYWz04n8zcTEENzkAB35OEAbEA"
         },
         {
             "Local": "San Nicolas",
@@ -2887,7 +2983,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1tEpSrUILtoBrBGCA1zrbHVCvgfPMhK8K"
         },
         {
             "Local": "San Rafael",
@@ -2917,7 +3014,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1SVd8UwF_OsALHziayU-yN2h_4vhrNcI0"
         },
         {
             "Local": "San Telmo",
@@ -2935,7 +3033,7 @@
             "Servicios 2": "",
             "Repuestos 2": "",
             "PPM": "",
-            "Filtros": "Sí",
+            "Filtros": "No",
             "Ablandador": "No",
             "Osmosis": "No",
             "Estado Agua": "",
@@ -2947,7 +3045,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/15Kmsnl9QWs3CcUHbdE4agohqqoU1-DB8"
         },
         {
             "Local": "Santa Fe P.",
@@ -2977,7 +3076,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1UxTSm0LWHUXJutwZG-9nww9X1-ju1wzC"
         },
         {
             "Local": "Spinetto",
@@ -3007,7 +3107,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1M0jC6wIB9KaSNBggfsa40h-LkCpapCmd"
         },
         {
             "Local": "Tandil",
@@ -3037,7 +3138,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1T86-dRdRCVpkRrVUwycKvoTgs-LfZoBZ"
         },
         {
             "Local": "Terrada",
@@ -3067,7 +3169,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1K0bB80f4oOl5vkURbGzj_TI3SZtQlEpc"
         },
         {
             "Local": "Ushuaia",
@@ -3097,7 +3200,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1S0pTHwp7NRmxUEDZOZzv0GJMdTg-tDzR"
         },
         {
             "Local": "Villa del Parque",
@@ -3127,7 +3231,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1PnR3O8J1N7y_HBQZX2ky2OGMiHr_e_Xv"
         },
         {
             "Local": "Walmart Sta Fe",
@@ -3157,7 +3262,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/13jrjqgjq0QlNfxODlbUy4k1VpBv2eYTJ"
         },
         {
             "Local": "Wilde",
@@ -3177,7 +3283,7 @@
             "PPM": 186,
             "Filtros": "No",
             "Ablandador": "No",
-            "Osmosis": "Sí",
+            "Osmosis": "No",
             "Estado Agua": "Osmosis desactivado",
             "Semaforo": "Rojo",
             "Regional": "",
@@ -3187,7 +3293,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1f1ClPrkqZovuzrBiCTFgI1PsEkVYEasL"
         },
         {
             "Local": "Zarate",
@@ -3217,7 +3324,8 @@
             "Localidad": "",
             "Provincia": "",
             "Tipo de Local": "",
-            "Razon Social": ""
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1EEANl4FUWu9zZ_dTRl7sanhCTe-J6en1"
         },
         {
             "Local": "Tucumán 2",
@@ -3247,7 +3355,8 @@
             "Localidad": "YERBA BUENA",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "A la calle",
-            "Razon Social": "GASTRONOMIA MODERNA SRL"
+            "Razon Social": "GASTRONOMIA MODERNA SRL",
+            "Link Drive": "https://drive.google.com/drive/folders/1BDRJEztd0BWL_2LjbWCiupcK8vj8RlZO"
         },
         {
             "Local": "Tucumán 3",
@@ -3277,7 +3386,8 @@
             "Localidad": "S.M. DE TUCUMAN",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "A la calle",
-            "Razon Social": "DRAS SRL"
+            "Razon Social": "DRAS SRL",
+            "Link Drive": "https://drive.google.com/drive/folders/1CYmGwYZJJAGG7ohYyy6fXhNUhDV5_qvf"
         },
         {
             "Local": "Tucumán 4",
@@ -3286,7 +3396,7 @@
             "Serie 1": "",
             "Shots": "",
             "Estado": "",
-            "Servicios": "",
+            "Servicios": 2.0,
             "Repuestos": "",
             "Marca 2": "",
             "Serie 2": "",
@@ -3307,7 +3417,8 @@
             "Localidad": "YERBA BUENA",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "Shopping",
-            "Razon Social": "ZONSUR SRL"
+            "Razon Social": "ZONSUR SRL",
+            "Link Drive": "https://drive.google.com/drive/folders/1W24DUU6jSHuMEG5qzmd-p1KerCWIwtST"
         },
         {
             "Local": "Tucumán 5",
@@ -3337,7 +3448,8 @@
             "Localidad": "YERBA BUENA",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "Auto Mostaza",
-            "Razon Social": "FELMOR GROUP SAS"
+            "Razon Social": "FELMOR GROUP SAS",
+            "Link Drive": "https://drive.google.com/drive/folders/1XOUyvW6o-pYne5PgGmFWE9yyEyFZNrhs"
         },
         {
             "Local": "Tucumán 6",
@@ -3367,7 +3479,8 @@
             "Localidad": "S.M. DE TUCUMAN",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "Auto Mostaza",
-            "Razon Social": "REDFOOD SRL"
+            "Razon Social": "REDFOOD SRL",
+            "Link Drive": "https://drive.google.com/drive/folders/1OgV75C1IfD7T1aEeEd_pwrB0PQSb0iMw"
         },
         {
             "Local": "Tucumán 7",
@@ -3397,7 +3510,8 @@
             "Localidad": "CONCEPCION",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "Auto Mostaza",
-            "Razon Social": "GOLDENSIDE S. R. L."
+            "Razon Social": "GOLDENSIDE S. R. L.",
+            "Link Drive": "https://drive.google.com/drive/folders/1tBKInIhgg0FZhsJ5A4yqpbF234s6zCcj"
         },
         {
             "Local": "Tucumán 8",
@@ -3427,7 +3541,8 @@
             "Localidad": "-",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "A la calle",
-            "Razon Social": "PUNTO 24 SRL"
+            "Razon Social": "PUNTO 24 SRL",
+            "Link Drive": "https://drive.google.com/drive/folders/1N_VaPub-DhBKZcuP__KzjXppdqyB2OV4"
         },
         {
             "Local": "Tucumán 9",
@@ -3457,7 +3572,8 @@
             "Localidad": "-",
             "Provincia": "TUCUMAN",
             "Tipo de Local": "A la calle",
-            "Razon Social": "MILON S.A.S"
+            "Razon Social": "MILON S.A.S",
+            "Link Drive": "https://drive.google.com/drive/folders/1QSo3yhLwNE-dpN-A0DVoYJfWt51XO_jZ"
         },
         {
             "Local": "Salta Noa",
@@ -3487,7 +3603,8 @@
             "Localidad": "SALTA",
             "Provincia": "SALTA",
             "Tipo de Local": "-",
-            "Razon Social": "-"
+            "Razon Social": "-",
+            "Link Drive": "https://drive.google.com/drive/folders/1-ETUrfLudBylzIKBwBOi3HnNT4wCM0ps"
         },
         {
             "Local": "Oroño",
@@ -3517,7 +3634,8 @@
             "Localidad": "Rosario",
             "Provincia": "SANTA FE",
             "Tipo de Local": "Auto Mostaza",
-            "Razon Social": "MADILAGA S.A."
+            "Razon Social": "MADILAGA S.A.",
+            "Link Drive": "https://drive.google.com/drive/folders/1vNEQPpbWkehXhNSaKqzgiKifrhTTu_9g"
         },
         {
             "Local": "Alto Rosario",
@@ -3547,7 +3665,39 @@
             "Localidad": "-",
             "Provincia": "SANTA FE",
             "Tipo de Local": "-",
-            "Razon Social": "-"
+            "Razon Social": "-",
+            "Link Drive": "https://drive.google.com/drive/folders/1egbwrU0qLBAMBe778YqBg-ZnFDT6_gKS"
+        },
+        {
+            "Local": "Urquiza",
+            "Sigla": "FURQ",
+            "Marca 1": "No especificado",
+            "Serie 1": "No especificado",
+            "Shots": "",
+            "Estado": "",
+            "Servicios": 16.0,
+            "Repuestos": "",
+            "Marca 2": "",
+            "Serie 2": "",
+            "Shots 2": "",
+            "Estado 2": "",
+            "Servicios 2": "",
+            "Repuestos 2": "",
+            "PPM": "",
+            "Filtros": "",
+            "Ablandador": "",
+            "Osmosis": "",
+            "Estado Agua": "",
+            "Semaforo": "",
+            "Regional": "",
+            "Supervisor": "",
+            "Mail": "",
+            "Dirección": "",
+            "Localidad": "",
+            "Provincia": "",
+            "Tipo de Local": "",
+            "Razon Social": "",
+            "Link Drive": "https://drive.google.com/drive/folders/1KJTL5LPODi6PpWMx9Uy9ipH0KsMWBqup"
         }
     ]
 }
