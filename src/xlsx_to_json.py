@@ -45,6 +45,10 @@ def procesar_datos():
         total = len(data)
         con_serie = sum(1 for r in data if str(r.get('Serie 1', '')).strip() not in ('', 'No especificado', 'S/N'))
         sin_serie = total - con_serie
+        
+        # Métrica de PPM faltantes
+        sin_ppm = sum(1 for r in data if str(r.get('PPM', '')).strip() in ('', '0', '—', '-'))
+
         marcas = {}
         for r in data:
             m1 = str(r.get('Marca 1', '')).strip()
@@ -57,6 +61,7 @@ def procesar_datos():
                 "total_locales": total,
                 "con_serie_confirmada": con_serie,
                 "sin_serie": sin_serie,
+                "sin_ppm": sin_ppm,
                 "marcas": marcas
             },
             "locales": data
