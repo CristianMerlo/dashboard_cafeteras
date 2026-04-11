@@ -483,6 +483,11 @@
             <div class="stat-value" id="stat-sin-serie">—</div>
             <div class="stat-sub">requieren relevamiento</div>
         </div>
+        <div class="stat-card blue">
+            <div class="stat-label">Sin PPM</div>
+            <div class="stat-value" id="stat-sin-ppm">—</div>
+            <div class="stat-sub">relevamiento de agua</div>
+        </div>
         <div class="stat-card gold">
             <div class="stat-label">La Cimbali</div>
             <div class="stat-value" id="stat-cimbali">—</div>
@@ -507,6 +512,7 @@
         <button class="filter-btn" data-filter="inoperativos" onclick="setFilter('inoperativos', this)" style="color:var(--accent-red);border-color:rgba(239,68,68,0.3);">Inoperativos</button>
         <button class="filter-btn" data-filter="con-serie" onclick="setFilter('con-serie', this)">Con Serie</button>
         <button class="filter-btn" data-filter="sin-serie" onclick="setFilter('sin-serie', this)">Sin Serie</button>
+        <button class="filter-btn" data-filter="sin-ppm" onclick="setFilter('sin-ppm', this)" style="color:var(--accent-blue);border-color:rgba(59,130,246,0.3);">Sin PPM</button>
         <button class="filter-btn" data-filter="cimbali" onclick="setFilter('cimbali', this)">La Cimbali</button>
         <button class="filter-btn" data-filter="melitta" onclick="setFilter('melitta', this)">Melitta</button>
         <button class="filter-btn" data-filter="dos-equipos" onclick="setFilter('dos-equipos', this)">2 Equipos</button>
@@ -619,6 +625,7 @@
             if (!matchSearch) return false;
             if (currentFilter === 'con-serie') return r['Serie 1'] && r['Serie 1'] !== '' && r['Serie 1'] !== 'No especificado' && r['Serie 1'] !== 'S/N';
             if (currentFilter === 'sin-serie') return !r['Serie 1'] || r['Serie 1'] === '' || r['Serie 1'] === 'No especificado' || r['Serie 1'] === 'S/N';
+            if (currentFilter === 'sin-ppm') return !r['PPM'] || r['PPM'] === '' || r['PPM'] === '0' || r['PPM'] === '—' || r['PPM'] === '-';
             if (currentFilter === 'cimbali') return (r['Marca 1'] || '').toLowerCase().includes('cimbali');
             if (currentFilter === 'melitta') return (r['Marca 1'] || '').toLowerCase().includes('melitta');
             if (currentFilter === 'dos-equipos') return r['Marca 2'] && r['Marca 2'] !== '';
@@ -752,6 +759,7 @@
             document.getElementById('stat-total').textContent = meta.total_locales || allData.length;
             document.getElementById('stat-con-serie').textContent = meta.con_serie_confirmada || '—';
             document.getElementById('stat-sin-serie').textContent = meta.sin_serie || '—';
+            document.getElementById('stat-sin-ppm').textContent = meta.sin_ppm !== undefined ? meta.sin_ppm : '—';
             document.getElementById('stat-cimbali').textContent = (meta.marcas || {})['La Cimbali'] || '—';
             document.getElementById('stat-melitta').textContent = (meta.marcas || {})['Melitta'] || '—';
 
